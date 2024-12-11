@@ -1,0 +1,298 @@
+* {
+    box-sizing: border-box;
+}
+
+header{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 3rem;
+    align-items: center;
+    background-color: rgb(243, 240, 228);
+    color: rgb(12, 11, 11);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.5vw;
+    letter-spacing: 1px; 
+}
+
+button{
+    padding: 0.5rem;
+    background-color: rgb(243, 240, 228);
+    align-items: end;
+    justify-content: end;
+    box-shadow: none;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1vw;
+}
+
+
+#email{
+    background-color: rgb(243, 240, 228);
+    color: rgb(12, 11, 11);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1vw;
+    letter-spacing: 1px; 
+    align-items: center;
+    text-decoration: none;
+    padding:0.5rem;
+    border: 1px solid black;
+    margin: 0.5rem;
+}
+
+body{
+    background-color: rgb(65, 63, 63);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+img{
+    max-width: 500px;
+    margin: 2rem;
+}
+
+#mywork{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+#one{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#two{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#three{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#four{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#aboutme{
+    display: flex;
+    flex-direction: column;
+   justify-content: center;
+    align-items: center;
+    width: auto;
+    height: 700px;
+    text-align: center;
+    color: white;
+}
+
+#portfolio_description{
+    width: 520px;
+    height: auto;
+}
+
+footer{
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: rgb(243, 240, 228);
+    padding: 5rem;
+}
+
+
+
+.home {
+    #home{
+        background-color: rgb(181, 68, 175);
+        transition: background-color 0.3s, transform 0.2s;
+    }
+
+    #home:hover{
+        background-color: rgb(47, 175, 175);
+    }
+}
+
+.retail{
+    #retail{
+        background-color: rgb(181, 68, 175);
+        transition: background-color 0.3s, transform 0.2s;
+    }
+    #retail:hover{
+        background-color: rgb(47, 175, 175);
+    }
+}
+
+.graphic{
+    #graphic{
+        background-color: rgb(181, 68, 175);
+        transition: background-color 0.3s, transform 0.2s;
+    }
+    #graphic:hover{
+        background-color: rgb(47, 175, 175);
+    }
+}
+
+.textile{
+    #textile{
+        background-color: rgb(181, 68, 175);
+        transition: background-color 0.3s, transform 0.2s;
+    }
+    #textile:hover{
+        background-color: rgb(47, 175, 175);
+    }
+}
+
+.branding{
+    #branding{
+        background-color: rgb(181, 68, 175);
+        transition: background-color 0.3s, transform 0.2s;
+    }
+    #branding:hover{
+        background-color: rgb(47, 175, 175);
+    }
+}
+
+.gallery{
+    #gallery{
+        background-color: rgb(181, 68, 175);
+        transition: background-color 0.3s, transform 0.2s;
+    }
+    #gallery:hover{
+        background-color: rgb(47, 175, 175);
+    }
+}
+
+.contact{
+    #contact{
+        background-color: rgb(181, 68, 175);
+        transition: background-color 0.3s, transform 0.2s;
+    }
+    #contact:hover{
+        background-color: rgb(47, 175, 175);
+    }
+}
+
+.back{
+    #back{
+        background-color: rgb(181, 68, 175);
+        transition: background-color 0.3s, transform 0.2s;
+    }
+    #back:hover{
+        background-color: rgb(47, 175, 175);
+    }
+}
+
+#info{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width:auto;
+    height: 700px;
+
+}
+
+
+@media screen and (min-width: 771px) and (max-width: 1000px) {
+    header{
+        display: flex;
+        flex-direction: column;
+        justify-content: center; 
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    header h1 {
+        margin: 10px 0;
+        padding-top: 2%;
+        font-size: 6vw;
+        letter-spacing: 1px; 
+        padding: 2%;  
+        text-align: center;
+    } 	
+
+    button {
+        max-width: 40%;
+        max-height: 40%;
+    }
+
+    #mywork {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    img{
+        max-width: 80%;
+        margin-right: 1rem;
+    }
+
+    h2{
+        text-align: center;
+        align-items: center:
+        justify-content: center;
+    }
+        
+    }
+
+
+    @media screen and (max-width: 770px) {
+        header{
+            display: flex;
+            flex-direction: column;
+            justify-content: center; 
+            align-items: center;
+            justify-content: space-between;
+            letter-spacing: 0.8px; 
+        
+        }
+    
+        header h1 {
+            margin: 10px 0;
+            padding-top: 2%;
+            font-size: 8vw;
+            letter-spacing: 0.8px; 
+            padding: 2%;  
+            text-align: center;
+        } 	
+    
+        button {
+            max-width: 20%;
+            max-height: 20%;
+            padding: 0.7rem;
+            margin: 0.2rem;
+        }
+    
+        #mywork {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+    
+        img{
+            max-width: 100%;
+            margin-right: 1rem;
+        }
+    
+        h2{
+            text-align: center;
+            align-items: center:
+            justify-content: center;
+        }
+
+        #logo{
+            max-width: 10%; 
+        }
+            
+        }
+
